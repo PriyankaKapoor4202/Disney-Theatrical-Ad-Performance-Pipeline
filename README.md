@@ -21,10 +21,10 @@ Manual weekly reporting across CSV exports was slow and error‑prone, causing i
 ## 🔄 Flowchart
 ```mermaid
 flowchart TD
-    A[CSV Inputs: prisma.csv, innovid.csv, gcm360.csv] --> B[ETL (pandas)]
-    B --> C[Clean & Merge]
-    C --> D[Compute KPIs: CTR, CPM, VCR, Pacing]
-    D --> E[Outputs: consolidated.csv, report.xlsx]
+    A["CSV inputs (prisma.csv / innovid.csv / gcm360.csv)"] --> B["ETL - pandas"]
+    B --> C["Clean & merge"]
+    C --> D["Compute KPIs (CTR CPM VCR Pacing)"]
+    D --> E["Outputs (consolidated.csv & report.xlsx)"]
 ```
 
 ## 🚀 Quickstart
