@@ -62,4 +62,4 @@ Ad_Performance_Pipeline_Full/
 - **VCR** = video_completes / video_starts  
 - **Pacing vs Plan** = (cost − planned_spend) / planned_spend  
 
-> Purpose‑built for **Disney theatrical campaigns**. Run once; outputs are generated—no extra setup.
+> Purpose‑built for **Disney theatrical campaigns**. Run once to generate outputs with no extra-setup.
